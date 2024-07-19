@@ -3,48 +3,130 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <header id="header-img ">
-            <h1>Restaurant Name</h1>
+        <style>
+           
+           h1, h2, h3, section {
+            text-align: center;
+           }
+
+            body{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            p {
+                padding: 5%;
+                text-align: justify;
+            }
+
+            a {
+                color: black;
+            }
+
+            ul {
+                text-align: left;
+            }
+
+            .sides {
+                text-align: left;
+            } 
+
+            .links {
+                text-align: center;
+                padding-left: 7%;
+                padding-top: 3%;
+            }
+
+            td {
+                text-align: center;
+                padding: 0 0 30px 100px;
+            }
+
+        </style>
+        <header id="header-img">
+            <h1>Benny's Bao</h1>
+            <img src="https://i.pinimg.com/originals/c9/c6/13/c9c6133dced7392e131f9bd582d7d93c.gif" alt="resto" width="100%">
             <nav>
-                <h2></h2>
+                <table class="links">
+                    <tr>
+                        <td><h2><a href="#menu-section">Menu</a></h2></td>
+                        <td><h2><a href="#order-section">Order Form</a></h2></td>
+                    </tr>
+                </table>
             </nav>
-
-
         </header>
-        <title>Restaurant Name</title>
+        <title>Benny's Bao | Better for the Belly</title>
     </head>
     <body>
         <main>
-            <section id="menu-section">
+            <section id="menu-section"> 
               <h2>Menu</h2>
-              <article></article>
-                <img src="">
-                <h3>Image Name 1</h3>
-                <p>Description
-                <br/>
-                <!-- Add italicized price -->
-                Price
+              <article >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_NOgWXcaoxcfzx4ysrYAUNOPDvdhlzOMjDsW5ZSmX8uu_keH-AM_u3EaQcDkZUvCzZR8&usqp=CAU" alt="sando">
+                <h3>Katsu Sando</h3>
+                <p>This culinary delight features a tender, juicy pork cutlet, expertly breaded and fried to golden perfection. Nestled between two slices of soft, pillowy Japanese milk bread, the cutlet is complemented by a layer of crisp, fresh cabbage and drizzled with a savory, tangy tonkatsu sauce.
+                <br/><br/>
+                <b>Price: $8.95</b>
                 </p>
-              <article></article>
-                <img src="">
-                <h3>Image Name 2</h3>
-                <p>Description
-                <br/>
-                <!-- Add italicized price -->
-                Price
+              </article>
+              <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5XYSEAyKOR1XAk32Oto8fSqZol7OaqooAY6Kdofz9_CkGjGK7a108Mlg7lbXQGPGEYA&usqp=CAU" alt="dumplings">
+                <h3>Fried Dumplings</h3>
+                <p>Perfectly crisp on the outside and delectably tender on the inside. Each dumpling is lovingly hand-folded and filled with a savory mixture of seasoned pork, fresh vegetables, and aromatic spices. Served with a side of tangy soy dipping sauce, these golden delights offer a satisfying crunch with every bite, making them the perfect appetizer or snack to complement any meal.
+                <br/><br/>
+                <b>Price: $12.50</b>
                 </p>
-              <article></article>
-                <img src="">
-                <h3>Image Name 3</h3>
-                <p>Description
-                <br/>
-                <!-- Add italicized price -->
-                Price
+              </article>
+              <article>
+                <img src="data:image/jpeg;base64,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" alt="sashimi">
+                <h3>Sashimi</h3>
+                <p>This delicacy showcases the finest cuts of fresh, high-quality fish, artfully sliced to perfection. Each piece is a testament to our commitment to authenticity and tradition, offering a melt-in-your-mouth texture that highlights the natural sweetness and delicate flavors of the seafood. Accompanied by a touch of wasabi and a splash of premium soy sauce, our Sashimi provides a clean, elegant taste experience that will transport you to the heart of Japanese culinary excellence.
+                <br/><br/>
+                <b>Price: $18.00</b>
                 </p>
+              </article>
+              <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZcCe8SIl8HQIm0CPXwvDIXNSOOcMonVnHoXyIrqr8FBPZGtXrtMk-r2mcCwUHANSMe0&usqp=CAU" alt="sashimi">
+                <h3>Ebi Curry</h3>
+                <p>The plump, juicy shrimp are cooked to perfection and immersed in a fragrant curry made from a blend of spices, vegetables, and a hint of sweetness. Served over a bed of fluffy steamed rice, this dish offers a harmonious blend of savory, sweet, and spicy notes that will tantalize your taste buds.
+                <br/><br/>
+                <b>Price: $14.00</b>
+                </p>
+              </article>
             </section>
+            <h2>Side Dishes</h2>
+            <p style="text-align: center; font-style: italic; font-weight: 600;">All side dishes are $6.50</p>
+            <article>
+                <ul>
+                    <li><b>Edamame</b>: Lightly salted steamed soybeans.</li>
+                    <li><b>Miso Soup</b>: Traditional Japanese soup with tofu, seaweed, and green onions.</li>
+                    <li><b>Seaweed Salad</b>: Fresh seaweed with a tangy sesame dressing.</li>
+                    <li><b>Pickled Vegetables</b>: A mix of pickled daikon, cucumber, and carrots.</li>
+                    <li><b>French Fries</b>: Crispy and golden, perfect for dipping.</li>
+                    <li><b>Coleslaw</b>: Crisp cabbage slaw with a tangy dressing.</li>
+                    <li><b>Japanese Potato Salad</b>: Creamy potato salad with a hint of mustard and fresh vegetables.</li>
+                    <li><b>Onigiri</b>: Rice balls filled with savory fillings like tuna or pickled plum.</li>
+                </ul>
+            </article>
             <section id="order-section">
-                <h2>Place Your Order</h2>
+                <br/>
+                <h2>Place Your Order<br/><br/></h2>
                 <form>
+                    <div class="sides">
+                        <table id="order-food">
+                            <tr>
+                                <td>Edamame: <br/><input type="number" min="0" max="10"></td>
+                                <td>Miso Soup: <br/><input type="number" min="0" max="10"></td>
+                            <tr>
+                                <td>Seaweed Salad: <br/><input type="number" min="0" max="10"></td>
+                                <td>Pickled Vegetables: <br/><input type="number" min="0" max="10"></td>
+                            <tr>
+                                <td>French Fries: <br/><input type="number" min="0" max="10"></td>
+                                <td>Coleslaw: <br/><input type="number" min="0" max="10"></td>
+                            <tr>    
+                                <td>Japanese Potato Salad: <br/><input type="number" min="0" max="10"></td>
+                                <td>Onigiri: <br/><input type="number" min="0" max="10"></td>
+                        </table>
+                    </div>
                 <label>For Special Requests:<br/>
                     <textarea id="data-entry" rows="10" cols="42" placeholder="Enter request." maxlength="250"></textarea>
                 </label>
@@ -55,7 +137,7 @@
             </section>
         </main>
         <footer>
-            <p>Made with love by @gabizzle</p>
+            <p style="text-align: center;">Made with love by @gabizzle</p>
         </footer>
     </body>
 </html>
