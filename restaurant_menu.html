@@ -11,10 +11,11 @@
 
             body{
                 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin: 0 3rem 0 3rem;
             }
 
             p {
-                padding: 5%;
+                padding: 2rem;
                 text-align: justify;
             }
 
@@ -22,36 +23,29 @@
                 color: black;
             }
 
-            ul {
-                text-align: left;
+            #links {
+                text-align: center;
             }
 
             .sides {
-                text-align: left;
+                text-align: center;
+                margin: 0 20vw 10vw 20vw;
+                padding: 0 5vw 0 5vw;
             } 
-
-            .links {
-                text-align: center;
-                padding-left: 7%;
-                padding-top: 3%;
-            }
-
-            td {
-                text-align: center;
-                padding: 0 0 30px 100px;
-            }
 
         </style>
         <header id="header-img">
             <h1>Benny's Bao</h1>
             <img src="https://i.pinimg.com/originals/c9/c6/13/c9c6133dced7392e131f9bd582d7d93c.gif" alt="resto" width="100%">
             <nav>
-                <table class="links">
-                    <tr>
-                        <td><h2><a href="#menu-section">Menu</a></h2></td>
-                        <td><h2><a href="#order-section">Order Form</a></h2></td>
-                    </tr>
-                </table>
+                <div class="tableFix"></div>
+                    <table id="links">
+                        <tr>
+                            <td style="padding: 5rem;"><h2><a href="#menu-section">Menu</a></h2></td>
+                            <td><h2><a href="#order-section">Order Form</a></h2></td>
+                        </tr>
+                    </table>
+                </div>
             </nav>
         </header>
         <title>Benny's Bao | Better for the Belly</title>
@@ -108,10 +102,9 @@
                 </ul>
             </article>
             <section id="order-section">
-                <br/>
-                <h2>Place Your Order<br/><br/></h2>
-                <form>
-                    <div class="sides">
+                <div class="sides">
+                    <h2><br/>Place Your Order<br/><br/></h2>
+                    <form>
                         <table id="order-food">
                             <tr>
                                 <td>Edamame: <br/><input type="number" min="0" max="10"></td>
@@ -126,7 +119,8 @@
                                 <td>Japanese Potato Salad: <br/><input type="number" min="0" max="10"></td>
                                 <td>Onigiri: <br/><input type="number" min="0" max="10"></td>
                         </table>
-                    </div>
+                    </form>
+                </div>
                 <label>For Special Requests:<br/>
                     <textarea id="data-entry" rows="10" cols="42" placeholder="Enter request." maxlength="250"></textarea>
                 </label>
